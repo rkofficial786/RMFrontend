@@ -15,13 +15,8 @@ import NotificationSVG from '../../assets/svg/notificationSVG';
 import BellIcon from '../../assets/svg/bellIConSVG';
 import { useSelector } from 'react-redux';
 
-interface TabBarIconProps {
-  label: string;
-  icon: string;
-  focused: boolean;
-}
 
-export const TabBarIcon: React.FC<TabBarIconProps> = ({
+export const TabBarIcon= ({
   label,
   icon,
   focused,

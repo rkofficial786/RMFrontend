@@ -9,6 +9,7 @@ import BottomNavigator from './BottomNavigator';
 import Signup from '../screens/auth/signup';
 import OTPverify from '../screens/auth/otp';
 import Login from '../screens/auth/login';
+import CreateTask from '../screens/createTask';
 
 const Stack = createStackNavigator();
 const Router = () => {
@@ -22,6 +23,7 @@ const Router = () => {
         <Stack.Screen name="Signup" component={Signup} />
         <Stack.Screen name="OTP" component={OTPverify} />
         <Stack.Screen name="Login" component={Login} />
+        <Stack.Screen name="creatTask" component={CreateTask} />
         
       </Stack.Navigator>
     </NavigationContainer>
